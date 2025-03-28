@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Mar 28 15:25:42 2025
+# Process ID         : 12472
+# Current directory  : C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1
+# Command line       : vivado.exe -log rv32i.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rv32i.tcl
+# Log file           : C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1/rv32i.vds
+# Journal file       : C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-F6OQH54
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16952 MB
+# Swap memory        : 2952 MB
+# Total Virtual      : 19905 MB
+# Available Virtual  : 5057 MB
+#-----------------------------------------------------------
+source rv32i.tcl -notrace

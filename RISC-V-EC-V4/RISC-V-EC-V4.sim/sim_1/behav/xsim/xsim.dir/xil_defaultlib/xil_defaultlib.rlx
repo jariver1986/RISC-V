@@ -1,0 +1,20 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd,1698635925,vhdl,,,,cu,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/alu.vhd,1698635925,vhdl,,,,alu,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/cont.vhd,1698635925,vhdl,,,,cont,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/data_m.vhd,1698635925,vhdl,,,,data_m,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/mux2_1.vhd,1698635925,vhdl,,,,mux2_1,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/mux32.vhd,1698635925,vhdl,,,,mux32,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/mux_4b.vhd,1698635925,vhdl,,,,mux_4b,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/mux_c.vhd,1698635925,vhdl,,,,mux_c,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd,1698635925,vhdl,,,,prog_m,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/reg_b.vhd,1698635925,vhdl,,,,reg_b,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/sign_e.vhd,1698635925,vhdl,,,,sign_e,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/sign_oe.vhd,1698635925,vhdl,,,,sign_oe,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/slicer.vhd,1698635925,vhdl,,,,slicer,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/sum.vhd,1698635925,vhdl,,,,sum,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rtl/unidor.vhd,1698635925,vhdl,,,,unidor,,,,,,,,
+C:/RISC-V/RISCV-EC-V1/rv32i.vhd,1743191866,vhdl,,,,rv32i,,,,,,,,

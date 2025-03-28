@@ -1,0 +1,410 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Mar 28 15:25:42 2025
+# Process ID         : 12472
+# Current directory  : C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1
+# Command line       : vivado.exe -log rv32i.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rv32i.tcl
+# Log file           : C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1/rv32i.vds
+# Journal file       : C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-F6OQH54
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16952 MB
+# Swap memory        : 2952 MB
+# Total Virtual      : 19905 MB
+# Available Virtual  : 5057 MB
+#-----------------------------------------------------------
+source rv32i.tcl -notrace
+Command: synth_design -top rv32i -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3932
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 850.023 ; gain = 479.336
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'rv32i' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:29]
+WARNING: [Synth 8-5640] Port 'men' is missing in component declaration [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:131]
+INFO: [Synth 8-3491] module 'CU' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd:34' bound to instance 'CU_0' of component 'CU' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'CU' [C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd:54]
+INFO: [Synth 8-226] default block is never used [C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'CU' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd:41]
+INFO: [Synth 8-3491] module 'alu' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/alu.vhd:32' bound to instance 'alu_0' of component 'alu' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'alu' [C:/RISC-V/RISCV-EC-V1/rtl/alu.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'alu' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/alu.vhd:39]
+INFO: [Synth 8-3491] module 'cont' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/cont.vhd:34' bound to instance 'cont_0' of component 'cont' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:223]
+INFO: [Synth 8-638] synthesizing module 'cont' [C:/RISC-V/RISCV-EC-V1/rtl/cont.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'cont' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/cont.vhd:41]
+INFO: [Synth 8-3491] module 'data_m' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/data_m.vhd:34' bound to instance 'data_m_0' of component 'data_m' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'data_m' [C:/RISC-V/RISCV-EC-V1/rtl/data_m.vhd:41]
+WARNING: [Synth 8-614] signal 'a' is read in the process but is not in the sensitivity list [C:/RISC-V/RISCV-EC-V1/rtl/data_m.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'data_m' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/data_m.vhd:41]
+INFO: [Synth 8-3491] module 'mux32' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/mux32.vhd:34' bound to instance 'mux32_0' of component 'mux32' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'mux32' [C:/RISC-V/RISCV-EC-V1/rtl/mux32.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'mux32' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/mux32.vhd:40]
+INFO: [Synth 8-3491] module 'mux_4b' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/mux_4b.vhd:34' bound to instance 'mux_SE' of component 'mux_4b' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'mux_4b' [C:/RISC-V/RISCV-EC-V1/rtl/mux_4b.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'mux_4b' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/mux_4b.vhd:40]
+INFO: [Synth 8-3491] module 'mux2_1' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/mux2_1.vhd:34' bound to instance 'mux_alu' of component 'mux2_1' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:250]
+INFO: [Synth 8-638] synthesizing module 'mux2_1' [C:/RISC-V/RISCV-EC-V1/rtl/mux2_1.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'mux2_1' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/mux2_1.vhd:40]
+INFO: [Synth 8-3491] module 'mux_c' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/mux_c.vhd:34' bound to instance 'mux_contador' of component 'mux_c' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'mux_c' [C:/RISC-V/RISCV-EC-V1/rtl/mux_c.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'mux_c' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/mux_c.vhd:40]
+INFO: [Synth 8-3491] module 'mux2_1' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/mux2_1.vhd:34' bound to instance 'mux_m' of component 'mux2_1' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:264]
+INFO: [Synth 8-3491] module 'prog_m' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:34' bound to instance 'prog_m_0' of component 'prog_m' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:271]
+INFO: [Synth 8-638] synthesizing module 'prog_m' [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'prog_m' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:44]
+INFO: [Synth 8-3491] module 'reg_b' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/reg_b.vhd:34' bound to instance 'reg_b_0' of component 'reg_b' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:281]
+INFO: [Synth 8-638] synthesizing module 'reg_b' [C:/RISC-V/RISCV-EC-V1/rtl/reg_b.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'reg_b' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/reg_b.vhd:41]
+INFO: [Synth 8-3491] module 'sign_e' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/sign_e.vhd:26' bound to instance 'sign_e_0' of component 'sign_e' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:292]
+INFO: [Synth 8-638] synthesizing module 'sign_e' [C:/RISC-V/RISCV-EC-V1/rtl/sign_e.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'sign_e' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/sign_e.vhd:32]
+INFO: [Synth 8-3491] module 'sign_oe' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/sign_oe.vhd:34' bound to instance 'sign_oe_0' of component 'sign_oe' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:297]
+INFO: [Synth 8-638] synthesizing module 'sign_oe' [C:/RISC-V/RISCV-EC-V1/rtl/sign_oe.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'sign_oe' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/sign_oe.vhd:41]
+INFO: [Synth 8-3491] module 'slicer' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/slicer.vhd:34' bound to instance 'slicer_0' of component 'slicer' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:303]
+INFO: [Synth 8-638] synthesizing module 'slicer' [C:/RISC-V/RISCV-EC-V1/rtl/slicer.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'slicer' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/slicer.vhd:39]
+INFO: [Synth 8-3491] module 'sum' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/sum.vhd:34' bound to instance 'sum_0' of component 'sum' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:308]
+INFO: [Synth 8-638] synthesizing module 'sum' [C:/RISC-V/RISCV-EC-V1/rtl/sum.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'sum' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/sum.vhd:39]
+INFO: [Synth 8-637] synthesizing blackbox instance 'system_ila_0' of component 'system_ila' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:314]
+INFO: [Synth 8-3491] module 'unidor' declared at 'C:/RISC-V/RISCV-EC-V1/rtl/unidor.vhd:34' bound to instance 'unidor_0' of component 'unidor' [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:320]
+INFO: [Synth 8-638] synthesizing module 'unidor' [C:/RISC-V/RISCV-EC-V1/rtl/unidor.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'unidor' (0#1) [C:/RISC-V/RISCV-EC-V1/rtl/unidor.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'rv32i' (0#1) [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:29]
+WARNING: [Synth 8-3848] Net temp[11] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[12] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[13] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[14] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[15] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[16] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[17] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[18] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[19] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[20] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[21] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[22] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[23] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[24] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[25] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[26] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[27] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[28] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[29] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[30] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+WARNING: [Synth 8-3848] Net temp[31] in module/entity prog_m does not have driver. [C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd:46]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'sum_0'. This will prevent further optimization [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:308]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'prog_m_0'. This will prevent further optimization [C:/RISC-V/RISCV-EC-V1/rv32i.vhd:271]
+WARNING: [Synth 8-7129] Port a[31] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[30] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[29] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[28] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[27] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[26] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[25] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[24] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[23] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[22] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[21] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[20] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[6] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[5] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[4] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[3] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[2] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[1] in module slicer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[6] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[5] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[31] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[30] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[29] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[28] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[27] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[26] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[25] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[24] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[23] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[22] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[21] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[20] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[19] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[18] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[17] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[16] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[15] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[14] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[13] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[12] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module data_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module data_m is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 958.223 ; gain = 587.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 958.223 ; gain = 587.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 958.223 ; gain = 587.535
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'alu_sal_reg' [C:/RISC-V/RISCV-EC-V1/rtl/alu.vhd:46]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 958.223 ; gain = 587.535
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   13 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
++---Muxes : 
+	  12 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 5     
+	   2 Input   13 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design rv32i has port valor[0] driven by constant 0
+WARNING: [Synth 8-7129] Port a[12] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[11] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[10] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[9] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[8] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[7] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[6] in module prog_m is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a[5] in module prog_m is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1197.008 ; gain = 826.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+-------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------+-----------+----------------------+-----------------+
+|rv32i       | reg_b_0/temp_reg  | Implied   | 32 x 32              | RAM32M x 12     | 
+|rv32i       | data_m_0/temp_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
++------------+-------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1197.855 ; gain = 827.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+-------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------+-----------+----------------------+-----------------+
+|rv32i       | reg_b_0/temp_reg  | Implied   | 32 x 32              | RAM32M x 12     | 
+|rv32i       | data_m_0/temp_reg | Implied   | 256 x 32             | RAM256X1S x 32  | 
++------------+-------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1197.855 ; gain = 827.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4649] Removing BlackBox instance system_ila_0 of module system_ila_bbox_0 having unconnected or no output ports
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    27|
+|3     |LUT1      |    14|
+|4     |LUT2      |    40|
+|5     |LUT3      |   119|
+|6     |LUT4      |    89|
+|7     |LUT5      |    53|
+|8     |LUT6      |   173|
+|9     |MUXF7     |     7|
+|10    |RAM256X1S |    32|
+|11    |RAM32M    |    10|
+|12    |RAM32X1D  |     4|
+|13    |FDRE      |    13|
+|14    |LD        |    31|
+|15    |IBUF      |     1|
+|16    |OBUF      |   122|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------+-------+------+
+|      |Instance   |Module |Cells |
++------+-----------+-------+------+
+|1     |top        |       |   736|
+|2     |  prog_m_0 |prog_m |     7|
+|3     |  sum_0    |sum    |    17|
+|4     |  alu_0    |alu    |   102|
+|5     |  cont_0   |cont   |    13|
+|6     |  data_m_0 |data_m |    65|
+|7     |  reg_b_0  |reg_b  |   408|
++------+-----------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 97 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.359 ; gain = 968.672
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1354.387 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 111 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1465.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 77 instances were transformed.
+  LD => LDCE: 31 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+Synth Design complete | Checksum: b43cef2c
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 97 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:35 . Memory (MB): peak = 1465.090 ; gain = 1095.375
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1465.090 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/RISC-V/RISC-V-EC-V4/RISC-V-EC-V4.runs/synth_1/rv32i.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file rv32i_utilization_synth.rpt -pb rv32i_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 28 15:26:26 2025...

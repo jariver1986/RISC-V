@@ -1,0 +1,32 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/CU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/cont.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/data_m.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'data_m'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/mux2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux2_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/mux32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/mux_4b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_4b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/mux_c.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_c'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/prog_m.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'prog_m'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/reg_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/sign_e.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_e'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/sign_oe.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_oe'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/slicer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slicer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/sum.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sum'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rtl/unidor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unidor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/RISC-V/RISCV-EC-V1/rv32i.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rv32i'

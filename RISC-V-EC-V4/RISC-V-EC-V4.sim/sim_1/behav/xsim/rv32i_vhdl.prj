@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../RISCV-EC-V1/rtl/CU.vhd" \
+"../../../../../RISCV-EC-V1/rtl/alu.vhd" \
+"../../../../../RISCV-EC-V1/rtl/cont.vhd" \
+"../../../../../RISCV-EC-V1/rtl/data_m.vhd" \
+"../../../../../RISCV-EC-V1/rtl/mux2_1.vhd" \
+"../../../../../RISCV-EC-V1/rtl/mux32.vhd" \
+"../../../../../RISCV-EC-V1/rtl/mux_4b.vhd" \
+"../../../../../RISCV-EC-V1/rtl/mux_c.vhd" \
+"../../../../../RISCV-EC-V1/rtl/prog_m.vhd" \
+"../../../../../RISCV-EC-V1/rtl/reg_b.vhd" \
+"../../../../../RISCV-EC-V1/rtl/sign_e.vhd" \
+"../../../../../RISCV-EC-V1/rtl/sign_oe.vhd" \
+"../../../../../RISCV-EC-V1/rtl/slicer.vhd" \
+"../../../../../RISCV-EC-V1/rtl/sum.vhd" \
+"../../../../../RISCV-EC-V1/rtl/unidor.vhd" \
+"../../../../../RISCV-EC-V1/rv32i.vhd" \
+
+# Do not sort compile order
+nosort
